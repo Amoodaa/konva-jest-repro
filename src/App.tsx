@@ -1,6 +1,6 @@
 import React from "react";
-
-import { Stage, Layer, Circle } from "react-konva";
+import { Layer, Stage, Circle } from "./es/ReactKonvaCore";
+import "./konva/lib/shapes/Circle";
 function App() {
   return (
     <div className="App">
